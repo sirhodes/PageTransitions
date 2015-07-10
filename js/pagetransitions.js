@@ -83,7 +83,8 @@ var PageTransitions = (function() {
         } );
 
 	}
-
+	
+	window.nextPage = nextPage;
 	function nextPage(options ) {
 		var animation = (options.animation) ? options.animation : options;
 
